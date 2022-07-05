@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Jatin-7/jsfirst/precache-manifest.bd7102d862c1f2834bf01cf9abb293d7.js"
+  "/jsfirst/precache-manifest.75c69d974a603e71250410e283814c2b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Jatin-7/jsfirst/index.html", {
+workbox.routing.registerNavigationRoute("/jsfirst/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
